@@ -34,13 +34,9 @@
 					"raw": "{\"mobile\":\"13800000002\", \r\n\"password\":\"123456\"}"
 				},
 				"url": {
-					"raw": "http://182.92.81.159/api/sys/login",
-					"protocol": "http",
+					"raw": "{{url}}/api/sys/login",
 					"host": [
-						"182",
-						"92",
-						"81",
-						"159"
+						"{{url}}"
 					],
 					"path": [
 						"api",
